@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151517" />
+      <stop offset="100%" stop-color="#0B0B0C" />
+    </linearGradient>
+    <pattern id="aboutLines" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="40" x2="40" y2="40" stroke="#F3F0E8" stroke-opacity="0.035" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#aboutGrad)" />
+  <rect width="800" height="1000" fill="url(#aboutLines)" />
+  <rect x="36" y="36" width="728" height="928" stroke="#F3F0E8" stroke-opacity="0.1" stroke-width="1" />
+  <rect x="140" y="160" width="520" height="580" stroke="#D4A373" stroke-opacity="0.25" stroke-width="1" />
+  <line x1="140" y1="160" x2="660" y2="740" stroke="#F3F0E8" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="660" y1="160" x2="140" y2="740" stroke="#F3F0E8" stroke-opacity="0.04" stroke-width="1" />
+  <circle cx="400" cy="450" r="88" stroke="#D4A373" stroke-opacity="0.4" stroke-width="1" />
+  <text x="400" y="468" text-anchor="middle" fill="#F3F0E8" fill-opacity="0.88" font-family="Georgia, serif" font-size="68" font-style="italic">02</text>
+  <text x="400" y="516" text-anchor="middle" fill="#D4A373" font-family="ui-monospace, monospace" font-size="12" letter-spacing="3.5">ABOUT PORTRAIT FRAME</text>
+  <text x="400" y="886" text-anchor="middle" fill="#A19D94" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2.5">REPLACE WITH ABOUT PHOTOGRAPH • ASPECT 4:5</text>
+</svg>
+
