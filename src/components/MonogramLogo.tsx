@@ -25,7 +25,7 @@ export function MonogramLogo({
       className={`relative inline-flex select-none items-center justify-center ${
         isLarge
           ? ''
-          : 'border border-hairline bg-surface transition-colors duration-300 group-hover:border-[#D4FA68]/70'
+          : 'border border-hairline bg-surface transition-colors duration-300 group-hover:border-[#D4A373]/70'
       } ${SIZE_CLASSES[size]} ${className}`}
       aria-label="A.S Monogram"
     >
@@ -35,20 +35,20 @@ export function MonogramLogo({
           initial={animated ? { opacity: 0, scale: 0.7 } : false}
           animate={animated ? { opacity: 1, scale: 1 } : undefined}
           transition={{ duration: 0.9, delay: 0.35, ease: EDITORIAL_EASE }}
-          className="pointer-events-none absolute inset-0 -z-10 rounded-full bg-[#D4FA68]/15 blur-2xl"
+          className="pointer-events-none absolute inset-0 -z-10 rounded-full bg-[#D4A373]/15 blur-2xl"
         />
       )}
 
       <span
         className={`inline-flex items-baseline font-serif italic leading-none tracking-[-0.04em] text-ink ${
-          isLarge ? 'drop-shadow-[0_0_24px_rgba(212,250,104,0.22)]' : ''
+          isLarge ? 'drop-shadow-[0_0_24px_rgba(212,163,115,0.25)]' : ''
         }`}
       >
         <span>A</span>
         <span
-          className={`mx-[0.06em] inline-block rounded-full bg-[#D4FA68] ${
+          className={`mx-[0.06em] inline-block rounded-full bg-[#D4A373] ${
             isLarge
-              ? 'h-2 w-2 shadow-[0_0_14px_rgba(212,250,104,0.9)] sm:h-2.5 sm:w-2.5'
+              ? 'h-2 w-2 shadow-[0_0_14px_rgba(212,163,115,0.85)] sm:h-2.5 sm:w-2.5'
               : 'h-1 w-1'
           }`}
         />

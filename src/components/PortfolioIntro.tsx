@@ -59,7 +59,7 @@ export function PortfolioIntro({ onComplete }: PortfolioIntroProps) {
           {/* Subtle atmospheric radial lighting */}
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_46%,rgba(212,250,104,0.08),rgba(18,18,22,0.4)_42%,rgba(7,7,8,1)_78%)]"
+            className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_46%,rgba(212,163,115,0.12),rgba(18,18,22,0.4)_42%,rgba(7,7,8,1)_78%)]"
           />
 
           {/* Top subtle technical index */}
@@ -70,7 +70,7 @@ export function PortfolioIntro({ onComplete }: PortfolioIntroProps) {
             className="relative z-10 flex w-full max-w-5xl items-center justify-between font-mono text-[10px] uppercase tracking-[0.26em] text-ink-subtle sm:text-[11px]"
           >
             <span>Portfolio // 2026</span>
-            <span className="text-[#D4FA68]/85">{MOTTO}</span>
+            <span className="text-[#D4A373]/90">{MOTTO}</span>
           </motion.div>
 
           {/* Centerpiece Choreography */}
@@ -80,7 +80,7 @@ export function PortfolioIntro({ onComplete }: PortfolioIntroProps) {
               initial={{ scaleX: 0, opacity: 0 }}
               animate={{ scaleX: 1, opacity: 1 }}
               transition={{ duration: 0.65, delay: 0.15, ease: EDITORIAL_EASE }}
-              className="mb-8 h-[1px] w-40 bg-gradient-to-r from-transparent via-[#D4FA68] to-transparent shadow-[0_0_16px_rgba(212,250,104,0.65)] sm:w-56"
+              className="mb-8 h-[1px] w-40 bg-gradient-to-r from-transparent via-[#D4A373] to-transparent shadow-[0_0_16px_rgba(212,163,115,0.65)] sm:w-56"
             />
 
             {/* Step 3 & 4: Large centered A.S monogram with blur + scale + opacity reveal */}
@@ -127,7 +127,7 @@ export function PortfolioIntro({ onComplete }: PortfolioIntroProps) {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.55, delay: 1.38, ease: EDITORIAL_EASE }}
-              className="mb-4 font-mono text-xs font-medium uppercase tracking-[0.28em] text-[#D4FA68] sm:text-sm"
+              className="mb-4 font-mono text-xs font-medium uppercase tracking-[0.28em] text-[#D4A373] sm:text-sm"
             >
               {DESIGNATION}
             </motion.p>
@@ -150,7 +150,7 @@ export function PortfolioIntro({ onComplete }: PortfolioIntroProps) {
                 initial={{ scaleX: 0, originX: 0 }}
                 animate={{ scaleX: 1 }}
                 transition={{ duration: 2.35, delay: 0.2, ease: 'easeInOut' }}
-                className="h-full w-full bg-[#D4FA68] shadow-[0_0_12px_rgba(212,250,104,0.75)]"
+                className="h-full w-full bg-[#D4A373] shadow-[0_0_12px_rgba(212,163,115,0.75)]"
               />
             </div>
           </div>

@@ -42,7 +42,7 @@ export function Hero({ ready = true }: HeroProps) {
           </div>
 
           <div className="inline-flex items-center gap-2.5 border border-hairline bg-surface px-3.5 py-1.5 font-mono text-[11px] tracking-[0.12em] text-ink-muted">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#D4FA68]" />
+            <span className="h-1.5 w-1.5 rounded-full bg-[#D4A373]" />
             <span>{PROFILE.title}</span>
           </div>
         </motion.div>
@@ -166,7 +166,7 @@ export function Hero({ ready = true }: HeroProps) {
                 alt={PROFILE.images.hero.alt}
                 caption={PROFILE.images.hero.caption}
                 badgeText="AS // 01"
-                aspectClass="aspect-[4/5]"
+                aspectClass="aspect-square"
                 objectPositionClass={PROFILE.images.hero.objectPositionClass}
                 delay={0.22}
                 immediate={ready}

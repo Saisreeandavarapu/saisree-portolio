@@ -1,6 +1,4 @@
-import aboutImage from '../assets/images/image.png';
 import saisreeHeadshot from '../assets/images/saisree-headshot.jpg';
-import saisreePortrait from '../assets/images/saisree-portrait.jpg';
 
 export interface NavItem {
   id: string;
@@ -101,23 +99,9 @@ export const PROFILE = {
   },
   images: {
     hero: {
-      src: saisreePortrait,
-      alt: 'Andavarapu Saisree — monochrome editorial portrait',
-      caption: 'ANDAVARAPU SAISREE // PORTRAIT',
-      objectPositionClass: 'object-[50%_62%]',
-      isPlaceholder: false,
-    },
-    about: {
-      src: aboutImage,
-      alt: 'Andavarapu Saisree — portrait in About section',
-      caption: 'ANDAVARAPU SAISREE // 02',
-      objectPositionClass: 'object-top',
-      isPlaceholder: false,
-    },
-    workspace: {
       src: saisreeHeadshot,
-      alt: 'Andavarapu Saisree — studio executive portrait',
-      caption: 'STUDIO PORTRAIT // 03',
+      alt: 'Andavarapu Saisree — studio headshot portrait',
+      caption: 'ANDAVARAPU SAISREE // PORTRAIT',
       objectPositionClass: 'object-top',
       isPlaceholder: false,
     },
